@@ -1,0 +1,1 @@
+export {default as WaveShape} from './WaveShape';
