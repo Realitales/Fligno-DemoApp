@@ -73,7 +73,7 @@ export default function Userprofile() {
 
             {settingState === false ? (
               <p id="user-address">
-                {currentUserAddress === undefined
+                {currentUserAddress === ""
                   ? "Please edit your address."
                   : currentUserAddress}
               </p>
